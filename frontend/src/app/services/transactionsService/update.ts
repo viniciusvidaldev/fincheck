@@ -1,0 +1,20 @@
+import { httpClient } from "../httpClient";
+
+export interface UpdateTransactionParams {
+  id: string
+  bankAccountId: string;
+  categoryId: string;
+  name: string;
+  value: number;
+  type: 'EXPENSE' | 'INCOME'
+  date: string
+}
+
+export async function update({
+  id,
+  ...params
+}: UpdateTransactionParams) {
+  const { data } = await httpClient.put(`/transactions/${id}`, params)
+
+  return data
+}
