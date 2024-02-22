@@ -1,4 +1,4 @@
-# <div align="center"><img src="src/assets/images/logo.svg" alt="Fincheck" width={320} height={400}/></div>
+# <div align="center">![image](https://github.com/vidaaal/fincheck/assets/72178841/e7b3c524-37ad-49b3-8c37-b920c3840ce4)</div>
 
 ![image](https://github.com/vidaaal/fincheck/assets/72178841/ec0ff2a9-11aa-4272-816c-2e79a9fb473d)
 
